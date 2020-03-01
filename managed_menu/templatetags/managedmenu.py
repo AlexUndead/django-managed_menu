@@ -1,7 +1,7 @@
 from django import template
 from django.core.cache import cache
 from django.urls import path
-from menu.models import Menu, MenuItem
+from managmed_menu.models import Menu, MenuItem
 
 register = template.Library()
 
